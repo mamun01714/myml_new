@@ -209,7 +209,7 @@ class _ImageClassificationScreenState extends State<ImageClassificationScreen> {
                 LayoutBuilder(
                   builder: (context, constraints) {
                     final displayWidth = constraints.maxWidth;
-                    final displayHeight = displayWidth * 320 / 480; // camera ratio
+                    final displayHeight = displayWidth * 255 / 480; // camera ratio
                     return Container(
                       width: displayWidth,
                       height: displayHeight,
